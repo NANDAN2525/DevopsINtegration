@@ -29,6 +29,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.2.0</version>
 				<!-- No version specified, uses the default from Spring Boot parent POM -->
 				<dependencies>
 					<dependency>
