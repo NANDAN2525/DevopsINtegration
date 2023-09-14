@@ -12,6 +12,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>com.jenkins</name>
 	<description>jenkins</description>
+	<repositories>
+    <repository>
+        <id>central</id>
+        <url>http://repo.maven.apache.org/maven2</url>
+    </repository>
+</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -29,8 +35,7 @@
 			<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-resources-plugin</artifactId>
-    <version>3.2.0</version>
-</plugin>  
+    </plugin>  
 		</plugins>
 	</build>
 </project>
